@@ -1,0 +1,107 @@
+html {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body {
+  width: 100%;
+  height: auto;
+  font-size: 17px;
+  background-color: whitesmoke;
+}
+.container {
+  width: 700px;
+  padding: 20px 150px;
+  background-color: white;
+  margin: 0 auto;
+}
+.container .main h1 {
+  font-size: 1.5em;
+}
+.container .main > p {
+  text-align: justify;
+  line-height: 22px;
+}
+.container .main img, .container .main video {
+  width: 49%;
+  height: 220px;
+}
+.container .main audio {
+  width: 100%;
+  margin: 5px 0px;
+}
+.container .main table {
+  width: 100%;
+  margin: 20px 0px;
+}
+.container .main td , .container .main table, .container .main th{
+  border: 1px solid gray;
+  border-collapse: collapse;
+}
+.container .main td, .container .main th {
+  padding-left: 10px;
+  height: 50px;
+}
+.container .footer .contact{
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  background-color: orange;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: whitesmoke;
+}
+.container .footer .contact:hover {
+  color: black;
+  transition: 0.3s linear;
+}
+.container .header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.container .header a {
+  width: 75px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: whitesmoke;
+  background-color: gray;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.container .header a:hover {
+  color: black;
+  transition: 0.3s linear;
+}
+.container label {
+  display: block;
+  margin-top: 20px;
+}
+.container input[type="text"], .container select {
+  width: 100%;
+  height: 30px;
+  border: 1px solid gray;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.container textarea {
+  width: 100%;
+}
+.container button {
+  width: 150px;
+  height: 45px;
+  background-color: orange;
+  color: whitesmoke;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+}
+.container button:hover {
+  color: black;
+  transition: 0.3s linear;
+  cursor: pointer;
+}
+.container #para {
+  margin-top: 30px;
+  padding-bottom: 10px;
+}
