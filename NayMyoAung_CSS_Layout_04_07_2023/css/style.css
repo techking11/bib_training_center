@@ -1,0 +1,112 @@
+/*
+1. Colors
+2. Background
+3. Margin
+4. Padding
+5. Borders
+6. Widths
+7. Heights
+8. CSS Text
+   - Text Alignment
+   - Text Decoration
+   - Text Spacing
+   - Text Transform
+9. CSS Font
+   - Font Family
+   - Font Size
+   - Font Google
+   - Web Font(@font-face)
+10. Position
+11. Display
+12. Float
+13. Clear
+14. Box-sizing
+15. Before and After  CSS code
+*/
+* {
+  box-sizing: border-box;
+}
+@font-face {
+   font-family: "Cambriab";
+   src: url(../fonts/cambriab.ttf);
+}
+.container {
+   width: 100%;
+   height: auto;
+   font-family: "Cambria", sans-serif;
+   color: whitesmoke;
+}
+.section-header {
+   height: 100vh;
+   position: relative;
+   background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/beautiful_garden.jpg) no-repeat center/cover;
+   filter: contrast(1.3);
+}
+/* Logo and Navigations of Header section */
+.logo img{
+   width: 15%;
+   position: absolute;
+   top: 4%;
+   left: 5%;
+}
+.navigation {
+   width: 100%;
+}
+.navigation .nav-items {
+   margin: 40px 50px 0px 0px;
+}
+.nav-items .nav-link {
+   float: right;
+   width: 10%;
+   background-color: goldenrod;
+   text-align: center;
+   padding: 10px 20px;
+   border-radius: 5px;
+   margin: 0px 10px;
+}
+.nav-items .nav-link a{
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   color: whitesmoke;
+}
+.nav-items .nav-link a:hover {
+   text-decoration: underline;
+   color: black;
+   transition: 0.3s linear;
+}
+.hero-contents {
+   width: 75%;
+}
+.hero-contents .card {
+   width: 50%;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+.card .card-title {
+   font-size: 2em;
+   color: goldenrod;
+   word-spacing: 5px;
+   font-family: 'Roboto', sans-serif;
+}
+.card .card-description {
+   font-size: 17px;
+   padding: 25px 0px;
+   line-height: 1.5;
+   text-align: justify;
+   display: inline-block;
+}
+.card .card-link {
+   width: 100px;
+   padding: 8px 28px;
+   background-color: goldenrod;
+   border-radius: 3px;
+   color: black;
+   margin-top: 25px;
+}
+.card .card-link:hover {
+   border: 1px solid whitesmoke;
+   color: whitesmoke;
+   text-decoration: underline;
+}
