@@ -1,0 +1,110 @@
+/**
+** Common Codes */
+@font-face {
+  font-family: "Cambria";
+  src: url("../fonts/cambriab.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffe4b3;
+  font-family: "Cambria", sans-serif;
+  text-transform: uppercase;
+}
+
+h3 {
+  text-align: center;
+}
+
+/** 
+** Navigation */
+.sec-wireframe-02 {
+  width: 880px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.sec-nav {
+  margin-bottom: 10px;
+  padding: 35px 20px;
+  border: 1px solid #000;
+}
+
+/**
+** Logo and Tagline */
+.sec-logo-tagline .logo {
+  float: left;
+  padding: 20px 80px;
+  border: 1px solid #000;
+}
+
+.sec-logo-tagline .tagline {
+  float: right;
+  padding: 20px 100px;
+  border: 1px solid #000;
+}
+
+/**
+** Feature and Clients */
+.sec-feature-client {
+  margin-top: 10px;
+}
+
+.sec-feature-client .feature {
+  float: left;
+  padding: 100px 200px;
+  border: 1px solid #000;
+}
+
+.sec-feature-client .client {
+  float: right;
+}
+
+.client .empty-block {
+  padding: 60px 132px;
+  border: 1px solid #000;
+}
+
+.client .sub-client-block h3 {
+  padding: 10px 0px;
+  text-align: left;
+}
+
+.empty-blocks .empty-block-item {
+  float: left;
+  padding: 29px 40px;
+  border: 1px solid #000;
+}
+
+.empty-block-item.middle {
+  margin: 0px 10px;
+}
+
+/**
+** Services, Testimonals and Banner */
+.sec-card-group {
+  margin-top: 20px;
+}
+
+.sec-card-group div {
+  float: left;
+  width: 273px;
+  padding: 40px 0;
+  border: 1px solid #000;
+}
+
+.testimonal-card.middle {
+  margin: 0px 10px;
+}
+
+/**
+** Footer */
+.sec-footer {
+  margin-top: 20px;
+  padding: 40px 20px;
+  border: 1px solid #000;
+}

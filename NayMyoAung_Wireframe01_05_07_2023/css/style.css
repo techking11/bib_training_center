@@ -1,0 +1,113 @@
+/**
+** Common Codes */
+@font-face {
+  font-family: "Cambria";
+  src: url("../fonts/cambriab.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ccddff;
+  color: #ffffff;
+  font-family: "Cambria", sans-serif;
+  letter-spacing: 2px;
+}
+
+h3 {
+  text-align: center;
+}
+
+.sec-header,
+.sec-nav,
+.cnt-layout1,
+.cnt-layout2,
+.sec-article,
+.sec-aside,
+.sec-footer {
+  border: 2px solid #ee82ee;
+}
+
+/**
+** Section Header */
+.sec-wirefrm-01 {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.sec-header {
+  padding: 35px;
+  background-color: #0080ff;
+}
+
+/**
+** Section Main */
+.sec-main {
+  margin-top: 10px;
+}
+
+.sec-nav {
+  float: left;
+  width: 225px;
+  margin-right: 10px;
+  padding: 220px 35px;
+  background-color: #0080ff;
+}
+
+.sec-contents {
+  float: right;
+  width: 565px;
+}
+
+.cnt-layout1,
+.cnt-layout2 {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  background-color: #0080ff;
+}
+
+.cnt-layout1 .sec-title,
+.cnt-layout2 .sec-title {
+  padding: 10px;
+}
+
+.sec-title h3 {
+  text-align: left;
+}
+
+.cnt-layout1-card1 .sec-article,
+.cnt-layout2-card1 .sec-article {
+  float: left;
+  width: 346px;
+  margin: 0px 10px;
+  padding: 76px 30px;
+  background-color: #0177ee;
+}
+
+.cnt-layout1-card2,
+.cnt-layout2-card2 {
+  float: right;
+  width: 185px;
+  margin-right: 10px;
+}
+
+.cnt-layout1-card2 .sec-aside:first-child,
+.cnt-layout2-card2 .sec-aside:first-child {
+  margin-bottom: 10px;
+}
+
+.cnt-layout1-card2 .sec-aside,
+.cnt-layout2-card2 .sec-aside {
+  padding: 30px 15px;
+  background-color: #0177ee;
+}
+
+/**
+** Section Footer */
+.sec-footer {
+  padding: 30px;
+  background-color: #0080ff;
+}
